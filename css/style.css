@@ -30,6 +30,10 @@ header {
     color: #2e2b2b;
 }
 
+#sobre bold {
+    font-weight: 800;
+}
+
 section {
     width: 100%;
     height: auto;
