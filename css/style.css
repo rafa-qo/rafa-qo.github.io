@@ -7,12 +7,8 @@
 }
 
 body {
-    min-width: 1280px;
-    background-image: url("../img/bgpb.png");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size:cover;
-
+    background: url("../img/bgpb.png") bottom/auto no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -23,6 +19,7 @@ header {
     font: normal 800 50px 'Open Sans', sans-serif;
     color: rgb(48, 48, 48);
     background-color: #b81717;
+    background-size: cover;
     box-shadow: 0 3px 6px #f79999;
 }
 
