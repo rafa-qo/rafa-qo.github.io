@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/forms.css">
+    <link rel="stylesheet" href="./css/all2.css">
+    <title>Formulário São Paulo</title>
+  </head>
+  <body>
+    
+    <header>
+      <h1>Quero conhecer São Paulo</h1>
+    </header>
+
+    <form>
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+
+          <div>
+            <label for="name">Nome Completo</label>
+            <input type="text" name="name" id="name" maxlength="100" class="input-name">
+          </div>
+
+          <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" class="input-email">
+          </div>
+
+          <div>
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" class="input-phone">
+          </div>
+
+          <div>
+            <label for="birthday">Data de Nascimento</label>
+            <input type="date" name="birthday" id="birthday">
+          </div>
+
+          <div class="maior-menor">
+            <h1>Você é:</h1>
+            <input type="radio" name="select-option" id="maior-idade">
+            <label for="maior-idade">Maior de Idade</label>
+            <input type="radio" name="select-option" id="menor-idade">
+            <label for="menor-idade">Menor de Idade</label>
+          </div>
+
+          <div>
+            <!-- <h1>O que mais tem vontade de conhecer?</h1> -->   
+            <label for="ponto-turistico">Selecione um ponto turístico que você mais tem vontade de conhecer:</label>
+            <select name="ponto-turistico" id="ponto-turistico">
+            <option value="1">MASP/Av. Paulista</option>
+            <option value="2">Parque Ibirapuera</option>
+            <option value="2">Museu do Ipiranga</option>
+            </select>
+          </div>
+
+          <div>
+
+            <h1 class="motivo-visita">Você é:</h1>
+
+            <input type="checkbox" name="motivos" id="primeira-opt" class="checkbox">
+            <label for="primeira-opt">Turista</label>
+
+            <input type="checkbox" name="motivos" id="segunda-opt" class="checkbox">
+            <label for="segunda-opt">Residente</label>
+
+            <input type="checkbox" name="motivos" id="terceira-opt" class="checkbox">
+            <label for="terceira-opt">Estudante</label>
+
+          </div>
+
+      </fieldset>
+
+      <div>
+        <button type="submit" class="buttons">Enviar</button>
+
+        <button type="reset" class="buttons">Limpar dados</button>
+      </div>
+    </form>
+
+    <footer>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=hk_kUe7LCAA"><i class="fab fa-youtube fa-5x"></i></a></li>
+        <li><a href="https://instagram.com/sampadicas"><i class="fab fa-instagram fa-5x"></i></a></li>
+      </ul>
+    </footer>
+
+  </body>
+</html>
