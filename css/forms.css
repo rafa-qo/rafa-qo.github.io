@@ -122,7 +122,7 @@ form label {
 
 .input-name:hover, .input-email:hover, .input-phone:hover {
 
-  width: 400px;
+  width: 150px;
   background-color: #cecece;
   color: grey;
 
@@ -130,7 +130,7 @@ form label {
 
 .input-name:focus, .input-email:focus, .input-phone:focus {
 
-  width: 400px;
+  width: 150px;
   background-color: #f0efef;
   color: grey;
 
