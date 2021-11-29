@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url("../img/bgpb.png") bottom/auto no-repeat;
+   background: url("../img/bgpb.png") bottom/auto no-repeat;
   background-size: cover;
 }
 
@@ -21,6 +21,12 @@ header {
   background-color: #b81717;
   background-size: cover;
   box-shadow: 0 3px 6px #f79999;
+}
+
+main {
+
+  margin: auto;
+  
 }
 
 #sobre {
@@ -63,12 +69,14 @@ header {
 #curiosidades {
 
   margin-bottom: 10px;
-  margin-left: 100px;
+  
     
 }
 
 .curiosidades-title {
 
+  display: flex;
+  justify-content: center;
   margin: 50px 0 50px;
   font: normal 800 24px 'Open Sans', sans-serif;
   color: #b81717;
@@ -78,6 +86,7 @@ header {
 .curiosidades-holder {
 
   display: flex;
+  justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
     
@@ -118,6 +127,7 @@ header {
 
 .curiosidades-card p {
 
+  text-shadow: 1px 1px 5px white;
   font: normal 15px/20px 'PT Serif',serif;
   text-align: justify;
   margin-bottom: 5px;

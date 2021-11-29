@@ -34,7 +34,8 @@ header {
 
 form {
 
-  margin-left: 100px;
+  display: flex;
+  justify-content: center; 
   
 }
 
@@ -50,7 +51,7 @@ form legend {
 
 form fieldset {
 
-  max-width: 600px;
+  width: 600px;
   background-color: #b8171780;
   padding: 10px 14px;
   box-shadow: 0 3px 6px #f79999;
@@ -122,7 +123,7 @@ form label {
 
 .input-name:hover, .input-email:hover, .input-phone:hover {
 
-  width: 150px;
+  width: 200px;
   background-color: #cecece;
   color: grey;
 
@@ -130,7 +131,7 @@ form label {
 
 .input-name:focus, .input-email:focus, .input-phone:focus {
 
-  width: 150px;
+  width: 200px;
   background-color: #f0efef;
   color: grey;
 
@@ -146,7 +147,7 @@ form label {
   color: white;
   margin: 20px 10px 0 0;
   transition: 0.5s;
-
+  
 }
 
 .buttons:hover {
@@ -172,5 +173,5 @@ footer ul{
   list-style-type: none;
   list-style: none;
   margin-left: 100px;
-
+  
 }
